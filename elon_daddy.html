@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+
+    <body>
+        <video id="video1" src="videos/mars_1.mp4" type="video/mp4" controls="controls" autoplay height="100%" width="100%">您的浏览器不支持。</video>
+        <video id="video2" src="videos/mars_2.mp4" type="video/mp4" controls="controls" autoplay height="100%" width="100%">您的浏览器不支持。</video>
+        <video id="video3" src="videos/daddy_doge_1.mp4" type="video/mp4" controls="controls" autoplay height="100%" width="100%">您的浏览器不支持。</video>
+        <video id="video4" src="videos/daddy_doge_2.mp4" type="video/mp4" controls="controls" autoplay height="100%" width="100%">您的浏览器不支持。</video>
+    </body>
+
+    <script type="text/javascript">
+    //全屏幕播放
+    function launchFullScreen(element) {
+      if(element.requestFullScreen) {
+        element.requestFullScreen();
+      } else if(element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if(element.webkitRequestFullScreen) {
+        element.webkitRequestFullScreen();
+      }
+    }
+    </script>
+</html>
